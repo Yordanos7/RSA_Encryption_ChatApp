@@ -4,7 +4,7 @@ import forge from "node-forge";
 import MessageInput from "./components/MessageInput";
 import MessageDisplay from "./components/MessageDisplay";
 
-const socket = io("https://rsa-encryption-chatapp-3backend.onrender.com");
+const socket = io("https://rsa-encryption-chatapp-7.onrender.com");
 
 function App() {
   const [publicKeyPem, setPublicKeyPem] = useState(null);
