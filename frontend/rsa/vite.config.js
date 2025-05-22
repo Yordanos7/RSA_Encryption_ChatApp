@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {
-      external: ["socket.io-client"], // Externalize socket.io-client
+      external: [], // Remove "socket.io-client" from externalization
     },
   },
 });
